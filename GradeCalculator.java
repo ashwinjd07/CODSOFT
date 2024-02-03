@@ -25,8 +25,8 @@ public class GradeCalculator {
 
        
         System.out.println("\nTotal Marks: " + totalMarks);
-        System.out.printf("Average Percentage: %.2f%%\n", averagePercentage);
-        System.out.println("Grade: " + grade);
+        System.out.printf("\nAverage Percentage: %.2f%%\n", averagePercentage);
+        System.out.println("\nGrade: " + grade);
     }
 
     private static char calculateGrade(double averagePercentage) {
